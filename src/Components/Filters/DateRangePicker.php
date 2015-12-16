@@ -127,7 +127,7 @@ class DateRangePicker extends Filter
                         $carbon->endOfMonth()->format('Y-m-d')
                     ]
                 ],
-                'last_week' => [
+                'this_week' => [
                     'This Week',
                     [
                         $carbon->startOfWeek()->format('Y-m-d'),
